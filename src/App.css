@@ -1,0 +1,67 @@
+#root {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navBar{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.label {
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between ; */
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.logo{
+  width: 150px;
+  justify-content: center;
+}
+
+.cardMedoc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .2);
+  border-radius: 15px;
+  padding: 16px;
+  background-color: white;
+}
+
+.imgMedoc {
+  max-width: 280px ; 
+  height : 300px ;
+  padding-bottom: 2rem;
+
+  
+}
+
+
+.btn {
+  width: 50%;
+  height: 2rem;
+  border-radius: 15px;
+  background-color: #7FA523;
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  text-align: center;
+}
+
+#firstName {
+  border-radius: 5px;
+  height: 25px;
+  margin-left: 8px;
+}
